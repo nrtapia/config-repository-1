@@ -7,7 +7,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://discoveryserver:8761/eureka/
+      defaultZone: http://discoveryserver:8761/eureka
 
 
 # Zipkin Instance
