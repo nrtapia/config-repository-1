@@ -1,0 +1,21 @@
+#=================================
+# Global Master Config Properties
+#=================================
+
+
+# Eureka Instance
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://discoveryserver:8761/eureka/
+
+
+# Zipkin Instance
+spring:
+  zipkin:
+    baseUrl: http://zipkinserver:9411
+  cloud:
+    config:
+      override-system-properties: false
