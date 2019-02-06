@@ -8,6 +8,9 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://discoveryserver:8761/eureka
+      metadata-map:
+        user.name: admin
+        user.password: admin
 
 
 # Zipkin Instance
