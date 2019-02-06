@@ -5,10 +5,8 @@
 
 # Eureka Instance
 eureka:
-  instance:
-    hostname: localhost
   client:
-    service-url:
+    serviceUrl:
       defaultZone: http://discoveryserver:8761/eureka/
 
 
